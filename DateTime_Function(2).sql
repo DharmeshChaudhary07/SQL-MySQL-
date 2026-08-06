@@ -21,13 +21,22 @@ SELECT
 FROM Orders;
 
 
+SELECT 
+    creationtime,
+    DATE_FORMAT(creationtime, '%d %H:%i:%s') AS dd
+FROM orders;
+
+
 -- TASK 10:
 --    Display CreationTime using a custom format:
 --    Example: Day Wed Jan Q1 2025 12:34:56 PM
 
+
 select
+creationtime,
 concat(Date_format(creationtime, '%d %a %b ') , quarter(creationtime) , Date_format(creationtime, ' %Y %h:%i:%s %p')) as task
 from orders;
+
 
 
 
@@ -38,12 +47,19 @@ select
 count(*),
 date_format(orderdate, '%b %y')
 from orders
-group by date_format(orderdate, '%b %y')
+group by date_format(orderdate, '%b %y');
 
-
+select * 
+from orders; 
 
 -- ==============================================================================
 --    CONVERT()
+
+select 
+convert('123', SIGNED),
+convert('20251016', DATE)
+from orders;
+
 
 
 -- TASK 12:
@@ -62,6 +78,14 @@ group by date_format(orderdate, '%b %y')
 
 -- ==============================================================================
 --    DATEADD() / DATEDIFF()
+
+select *
+from orders;
+
+select
+date_add()
+from orders
+
 
 
 -- TASK 14:

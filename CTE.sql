@@ -1,7 +1,7 @@
  ==============================================================================
    SQL Common Table Expressions (CTEs)
 -------------------------------------------------------------------------------
-   This script demonstrates the use of Common Table Expressions (CTEs) in SQL Server.
+   This script demonstrates the use of Common Table Expressions (CTEs) in SQL.
    It includes examples of non-recursive CTEs for data aggregation and segmentation,
    as well as recursive CTEs for generating sequences and building hierarchical data.
 

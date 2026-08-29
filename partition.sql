@@ -1,7 +1,7 @@
  ==============================================================================
    SQL Partitioning
 -------------------------------------------------------------------------------
-   This script demonstrates SQL Server partitioning features. It covers the creation of partition functions, filegroups, data files, partition schemes,
+   This script demonstrates SQl partitioning features. It covers the creation of partition functions, filegroups, data files, partition schemes,
    partitioned tables, and verification queries. It also shows how to compare execution plans between partitioned and non-partitioned tables.
 
    Table of Contents:

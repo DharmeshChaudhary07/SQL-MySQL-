@@ -1,7 +1,7 @@
  ==============================================================================
    SQL Stored Procedures
 -------------------------------------------------------------------------------
-   This script shows how to work with stored procedures in SQL Server,
+   This script shows how to work with stored procedures in SQL,
    starting from basic implementations and advancing to more sophisticated
    techniques.
 

@@ -1,7 +1,8 @@
  ==============================================================================
    SQL Indexing
 -------------------------------------------------------------------------------
-   This script demonstrates various index types in SQL Server including clustered,
+   This script demonstrates various index types in SQL 
+   /*ncluding clustered,
    non-clustered, columnstore, unique, and filtered indexes. It provides examples 
    of creating a heap table, applying different index types, and testing their 
    usage with sample queries.
@@ -18,7 +19,7 @@
 			 - Monitor Missing Indexes
 			 - Monitor Duplicate Indexes
 			 - Update Statistics
-			 - Fragmentations
+			 - Fragmentations*/
 =================================================================================
 
 

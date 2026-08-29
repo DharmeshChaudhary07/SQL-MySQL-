@@ -27,9 +27,9 @@ select * from temporders
 SET SQL_SAFE_UPDATES = 0;
 
 delete from temporders
-where orderstatus = 'delivered'
+where orderstatus = 'delivered';
 
-select * from temporders
+select * from temporders;
 
 
  ==============================================================================
@@ -38,4 +38,4 @@ select * from temporders
 
 create table orderstest as 
 select  *
-from temporders
+from temporders;

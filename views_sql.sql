@@ -1,7 +1,7 @@
  ==============================================================================
    SQL Views
 -------------------------------------------------------------------------------
-   This script demonstrates various view use cases in SQL Server.
+   This script demonstrates various view use cases in SQL.
    It includes examples for creating, dropping, and modifying views, hiding
    query complexity, and implementing data security by controlling data access.
 
